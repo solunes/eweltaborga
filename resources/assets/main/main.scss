@@ -1,0 +1,47 @@
+@import "compass/css3";
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lobster+Two:400,400i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,800,900');
+
+// General Variables
+$font-title: 'Abel', Helvetica;
+$font-subtext: 'Source Sans Pro', sans-serif;
+$font-text: 'Source Sans Pro', sans-serif;
+$primary-color: #a71a1a;
+$second-color: #3f3f3e;
+$third-color: #000000;
+$background-color: #fff;
+$text-color: #3f3f3e;
+
+$admin-main-color: #a71a1a;
+$admin-second-color: #3f3f3e;
+$admin-light-color: #ffffff;
+
+@import "global/mixins";
+@import "global/main";
+@import "global/admin";
+
+//body.main-site { color: $second-color; font-family: $font-text; font-size: 20px; background: $background-color; }
+
+body.main-site {
+	.l-navbar-wrapper_has-sticky .l-navbar_t-semi-trans, .l-navbar-wrapper_has-sticky .l-navbar_t-dark-trans { background-color: $second-color; }
+	.navbar-brand img { height: 75px; width: auto; }
+	.footer-logo img { width: 100%; height: auto; }
+	.team-hover .desk {  -webkit-transform: translateY(-35%); transform: translateY(-35%);
+		p { line-height: 28px; }
+	}
+	.btn-site { background: $primary-color; color: #fff; @include transition(0.5s); }
+	.btn-site:hover { background: $second-color; }
+	.contact-comments {
+		.form-control { margin-bottom: 10px; }
+		textarea.form-control { height: auto; }
+		.btn-site { margin-left: 15px; margin-top: 5px; }
+	}
+	/*@import "master/main";
+	@import "master/responsive";
+	@import "segments/main";
+	@import "segments/responsive";
+	@import "project/main";
+	@import "project/responsive";*/
+
+}
