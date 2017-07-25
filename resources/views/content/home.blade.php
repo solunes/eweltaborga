@@ -63,9 +63,13 @@
         <div class="half-txt">A continuación le listamos los servicios en los que contamos con una basta experiencia</div>
       </div>
 
-      @foreach($nodes['services'] as $item)
-        @include('singles.service')
-      @endforeach
+      <div class="feature-box-grid">
+
+        @foreach($nodes['services'] as $item)
+          @include('singles.service')
+        @endforeach
+
+      </div>
 
     </div>
 

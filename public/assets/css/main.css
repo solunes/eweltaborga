@@ -89,6 +89,7 @@ body.error-site {
     background: #ffffff; }
 
 body.main-site {
+  /*Services*/
   /*@import "master/main";
   @import "master/responsive";
   @import "segments/main";
@@ -110,7 +111,11 @@ body.main-site {
       line-height: 28px; }
   body.main-site .btn-site {
     background: #a71a1a;
-    color: #fff; }
+    color: #fff;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
   body.main-site .btn-site:hover {
     background: #3f3f3e; }
   body.main-site .contact-comments .form-control {
@@ -120,3 +125,18 @@ body.main-site {
   body.main-site .contact-comments .btn-site {
     margin-left: 15px;
     margin-top: 5px; }
+  body.main-site .featured-item .desc {
+    text-align: left; }
+  body.main-site .featured-item.border-box {
+    height: 380px; }
+  body.main-site .banner-sb1 {
+    background-image: url("../../../assets/img/banner.jpg") !important; }
+  body.main-site .services .featured-item.border-box {
+    height: auto;
+    min-height: 280px; }
+  body.main-site .services .sub_services {
+    padding: 20px;
+    margin-top: 40px; }
+    body.main-site .services .sub_services .service_each {
+      margin-top: 25px;
+      margin-bottom: 50px; }
