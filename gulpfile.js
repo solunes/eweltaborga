@@ -37,20 +37,20 @@ elixir(function(mix) {
     mix.cssOuput = public_directory + '/assets/css';
     mix.jsOuput = public_directory + '/assets/js';
     mix
-        .copy(paths.bootstrap + 'stylesheets/**', 'resources/assets/sass/bootstrap')
+        /*.copy(paths.bootstrap + 'stylesheets/**', 'resources/assets/sass/bootstrap')
         .copy(paths.bootstrap + 'fonts/bootstrap/**', public_directory + '/assets/fonts/bootstrap')
         .copy(paths.fontawesome + 'scss/**', 'resources/assets/sass/fontawesome')
         .copy(paths.fontawesome + 'fonts/**', public_directory + '/assets/fonts/fontawesome')
         .copy(paths.iconmoon + 'fonts/**', public_directory + '/assets/fonts/iconmoon')
         .sass("resources/assets/sass/vendor.scss", public_directory + '/assets/css/vendor.css')
-        .sass("resources/assets/sass/template/style.scss", public_directory + '/assets/css/template.css')
+        .sass("resources/assets/sass/template/style.scss", public_directory + '/assets/css/template.css')*/
         .compass("main.scss", public_directory + '/assets/css', {
             config_file: "config/compass.rb",
             style: "nested",
             comments: false,
             sass: "resources/assets/main"
         })
-        .styles([
+        /*.styles([
             paths.wysiwygeditor + "css/froala_style.min.css",
             paths.animatecss + "animate.min.css",
             paths.elasicslider + "elastic.css",
@@ -80,7 +80,7 @@ elixir(function(mix) {
         .scripts([
             paths.respondjs + "respond.min.js",
             paths.excanvas + "excanvas.js"
-        ], public_directory + '/assets/js/ie8.js', './')
+        ], public_directory + '/assets/js/ie8.js', './')*/
         .version([
             'assets/css/vendor.css',
             'assets/css/plugins.css',

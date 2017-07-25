@@ -37,6 +37,32 @@ body.main-site {
 		textarea.form-control { height: auto; }
 		.btn-site { margin-left: 15px; margin-top: 5px; }
 	}
+
+	.featured-item .desc {
+		text-align: left;
+	}
+	.featured-item.border-box {
+		height: 380px;
+	}
+	.banner-sb1 {
+		background-image: url("../../../assets/img/banner.jpg") !important;
+	}
+
+	/*Services*/
+	.services .featured-item.border-box {
+		height: auto;
+		min-height: 280px;
+	}
+	.services .sub_services {
+		padding: 20px;
+		margin-top: 40px;
+		.service_each {
+			margin-top: 25px;
+			margin-bottom: 50px;
+		}
+	}
+
+
 	/*@import "master/main";
 	@import "master/responsive";
 	@import "segments/main";
