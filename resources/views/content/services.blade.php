@@ -34,7 +34,7 @@
 
     <div class= "sub_services">
 
-      @foreach($nodes['services'] as $item)
+      @foreach($nodes['services'] as $key => $item)
         @include('singles.service')
       @endforeach
 
