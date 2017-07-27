@@ -158,13 +158,15 @@ body.main-site {
     margin-left: 0px;
     margin-right: 0px; }
   body.main-site .member_each {
-    background-color: #a71a1a;
-    border: 15px solid #1f211f;
+    background-color: #e3e3e3;
+    border: 15px solid #dedddd;
     margin-bottom: 20px; }
     body.main-site .member_each .member_content {
       padding: 0px 15px 0px 15px; }
       body.main-site .member_each .member_content p {
-        color: #f1c8c8; }
+        color: #acacac;
+        font-weight: 500;
+        font-style: italic; }
     body.main-site .member_each .team-img {
       padding: 0px;
-      border-right: 15px solid #1f211f; }
+      border-right: 15px solid #dedddd; }

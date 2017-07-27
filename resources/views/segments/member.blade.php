@@ -11,6 +11,16 @@
     @endforeach
 
   </div>
+  <div class="parallax-inner parallax-8">
+    <div class="container ">
+      <div class="row">
+        <div class="heading-title-alt text-center m-bot-0 inline-block">
+          <span class="heading-sub-title text-uppercase theme-color">Hellen keller</span>
+          <h1 class="light-txt">"Solos podemos hacer poco, juntos podemos hacer mucho"</h1>
+        </div>
+      </div>
+    </div>
+  </div>
 @else
   <p>Actualmente no hay miembros de equipo en esta sección.</p>
 @endif
