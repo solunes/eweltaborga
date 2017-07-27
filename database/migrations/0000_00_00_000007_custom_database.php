@@ -52,6 +52,7 @@ class CustomDatabase extends Migration
             $table->increments('id');
             $table->string('name')->nullable();
             $table->string('icon')->nullable();
+            $table->string('image')->nullable();
             $table->text('content')->nullable();
             $table->timestamps();
         });

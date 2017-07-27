@@ -5,7 +5,7 @@
       @if (($key % 2) == 1)
         <div class="col-md-6">
           <div class="post-img title-img">
-            <img src="assets/img/service.jpg" alt="">
+            <img src="{{ Asset::get_image_path('type-image','normal',$item->image) }}" alt="">
             <div class="info">{{ $item->name }}</div>
           </div>
         </div>
@@ -29,7 +29,7 @@
       @if (($key % 2) == 0)
         <div class="col-md-6">
           <div class="post-img title-img">
-            <img src="assets/img/service.jpg" alt="">
+            <img src="{{ Asset::get_image_path('type-image','normal',$item->image) }}" alt="">
             <div class="info">{{ $item->name }}</div>
           </div>
         </div>
