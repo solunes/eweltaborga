@@ -90,6 +90,7 @@ body.error-site {
 
 body.main-site {
   /*Services*/
+  /*Members*/
   /*@import "master/main";
   @import "master/responsive";
   @import "segments/main";
@@ -131,12 +132,39 @@ body.main-site {
     height: 380px; }
   body.main-site .banner-sb1 {
     background-image: url("../../../assets/img/banner.jpg") !important; }
-  body.main-site .services .featured-item.border-box {
-    height: auto;
-    min-height: 280px; }
-  body.main-site .services .sub_services {
+  body.main-site .banner-07 {
+    background-image: url("../../../assets/img/banner_home.jpg") !important; }
+  body.main-site .tab-parallax-alt {
+    background-image: url("../../../assets/img/vision_home.jpg") !important; }
+  body.main-site .title_home {
+    background: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 65px 0px 30px 0px; }
+  body.main-site .m-bot-50 {
+    margin-bottom: 0px; }
+  body.main-site .border-short-bottom h1:after, body.main-site .border-short-bottom h2:after, body.main-site .border-short-bottom h3:after, body.main-site .border-short-bottom h4:after, body.main-site .border-short-bottom h5:after, body.main-site .border-short-bottom h6:after {
+    background: #a71a1a; }
+  body.main-site .sub_services {
     padding: 20px;
     margin-top: 40px; }
-    body.main-site .services .sub_services .service_each {
-      margin-top: 25px;
-      margin-bottom: 50px; }
+  body.main-site .service_each {
+    margin-top: 25px;
+    margin-bottom: 50px; }
+  body.main-site .title-img .info {
+    text-transform: uppercase;
+    text-align: center; }
+  body.main-site .team_all .row.member_each {
+    margin-left: 0px;
+    margin-right: 0px; }
+  body.main-site .member_each {
+    background-color: #a71a1a;
+    border: 15px solid #1f211f;
+    margin-bottom: 20px; }
+    body.main-site .member_each .member_content {
+      padding: 0px 15px 0px 15px; }
+      body.main-site .member_each .member_content p {
+        color: #f1c8c8; }
+    body.main-site .member_each .team-img {
+      padding: 0px;
+      border-right: 15px solid #1f211f; }
