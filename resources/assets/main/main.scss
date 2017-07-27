@@ -47,18 +47,59 @@ body.main-site {
 	.banner-sb1 {
 		background-image: url("../../../assets/img/banner.jpg") !important;
 	}
+	.banner-07 {
+		background-image: url("../../../assets/img/banner_home.jpg") !important;
+	}
+	.tab-parallax-alt {
+		background-image: url("../../../assets/img/vision_home.jpg") !important;
+	}
+	.title_home {
+		background: #fff;
+	    border-top: 1px solid #ccc;
+	    border-bottom: 1px solid #ccc;
+	    padding: 65px 0px 30px 0px;
+	}
+	.m-bot-50 {
+		margin-bottom: 0px;
+	}
+	.border-short-bottom h1:after, .border-short-bottom h2:after, .border-short-bottom h3:after, .border-short-bottom h4:after, .border-short-bottom h5:after, .border-short-bottom h6:after {
+		background: $primary-color;
+	}
 
 	/*Services*/
-	.services .featured-item.border-box {
-		height: auto;
-		min-height: 280px;
-	}
-	.services .sub_services {
+	.sub_services {
 		padding: 20px;
 		margin-top: 40px;
-		.service_each {
-			margin-top: 25px;
-			margin-bottom: 50px;
+	}
+	.service_each {
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+	.title-img .info {
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	/*Members*/
+	.team_all {
+		.row.member_each {
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+	}
+	.member_each {
+		background-color: $primary-color;
+		border: 15px solid #1f211f;
+		margin-bottom: 20px;
+		.member_content { 
+			padding: 0px 15px 0px 15px;
+			p {
+				color: #f1c8c8;
+			}
+		}
+		.team-img {
+			padding: 0px;
+			border-right: 15px solid #1f211f;
 		}
 	}
 
